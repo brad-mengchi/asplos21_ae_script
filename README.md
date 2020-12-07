@@ -1,7 +1,8 @@
 # System prerequest
 * Ubuntu Linux
 * git
-* 
+* CUDA 10.1
+* Python 2.7
 
 # Configure system environment
 
@@ -20,4 +21,11 @@ source setup.sh
 Clone github repo and compile the workloads:
 ```bash
 source compile.sh
+```
+
+# Run workloads
+
+Run all the workloads with device 6 (About 35 mins on V100 GPUs):
+```bash
+source run.sh
 ```
