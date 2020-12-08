@@ -1,8 +1,18 @@
 # System prerequest
 * Ubuntu Linux
+* bash
 * git
-* CUDA 10.1
-* Python 2.7
+
+# Using conda
+Instructions below follows (conda installation guide)[https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#]
+Download conda package:
+```bash
+wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+```
+Install conda:
+```bash
+bash Anaconda3-2020.11-Linux-x86_64.sh 
+```
 
 # Configure system environment
 
