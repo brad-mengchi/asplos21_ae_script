@@ -1,7 +1,7 @@
 # System prerequest
-* Ubuntu Linux
+* Ubuntu 18.04.5 LTS Linux
 * git
-* CUDA 10.1
+* CUDA 10.1: https://developer.nvidia.com/cuda-10.1-download-archive-base
 * Python 2.7
 
 # Configure system environment
@@ -25,7 +25,7 @@ source compile.sh
 
 # Run workloads
 
-Run all the workloads with device 6 (About 35 mins on V100 GPUs):
+Run all the workloads with device 0 (and you can change 0 to a different device number), and it takes about 40 mins on V100 GPUs:
 ```bash
-source run.sh
+source run.sh 0
 ```
