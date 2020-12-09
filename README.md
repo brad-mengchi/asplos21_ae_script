@@ -4,6 +4,7 @@
 * git
 
 # Install conda
+
 Instructions below follows [conda installation guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#). We just need to install conda once.
 
 Download conda package:
@@ -27,9 +28,9 @@ re-open the terminal and enable conda command:
 . .bashrc
 ```
 
-Create conda env with python 2.7 and CUDA 10.1
+Create conda env with python 2.7
 ```bash
-conda create --name py2.7 python=2.7 cudatoolkit=10.1
+conda create --name py2.7 python=2.7
 ```
 
 activate py2.7
@@ -37,19 +38,25 @@ activate py2.7
 conda activate py2.7
 ```
 
+# Install CUDA 10.1
+
+Download and install CUDA 10.1:
+```bash
+wget https://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.243_418.87.00_linux.run
+sh cuda_10.1.243_418.87.00_linux.run
+```
+
 # Configure system environment
 
 Configure system environment for CUDA 10.1 installed path:
 ```bash
-export CUDA_INSTALL_PATH=~/../common/cuda-10.1
+export CUDA_INSTALL_PATH=<cuda-toolkit-path>
 ```
 
 Setup envs based on CUDA intalled path:
 ```bash
 source setup.sh
 ```
-
-
 
 # Clone repo and compile workloads
 
