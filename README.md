@@ -1,4 +1,4 @@
-# System Pre-requesite
+# System Pre-requisite
 
 * Ubuntu 18.04.5 LTS Linux
 * git
@@ -37,4 +37,11 @@ source compile.sh
 Run all the workloads with device 0 (and you can change 0 to a different device number), and it takes about 40 mins on V100 GPUs:
 ```bash
 source run.sh 0
+```
+
+# Get statistics from workloads
+
+Get all the workloads data with device 0 (and you can change 0 to a different device number):
+```bash
+source get.sh 0
 ```
