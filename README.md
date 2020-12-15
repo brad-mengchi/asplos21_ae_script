@@ -45,3 +45,28 @@ Get all the workloads data with device 0 (and you can change 0 to a different de
 ```bash
 source get.sh 0
 ```
+
+The output will be like below:
+```
+  trafficV,1.0
+  trafficV_CONCORD,1.14438626483
+  trafficV_MEM,2.30135820913
+  ...
+  RAY_COAL,1.07433750888
+  RAY_TP,1.04707522351
+```
+
+The output name for workloads and techniques are little different, so we attach a table below:
+Set | Workload name | output name
+----|----|----
+Dynasoar|TRAF|trafficV
+____|GOL|game-of-life
+____|STUT|structureV
+____|GEN|generationV
+GraphChi-VE|BFS|BFS
+____|CC|CC
+____|PR|PR
+GraphChi-VEN|BFS|BFSV
+____|CC|CCV
+____|PR|PRV
+raytracer|RAY|RAY
