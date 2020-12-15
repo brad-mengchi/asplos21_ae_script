@@ -56,7 +56,8 @@ The output will be like below:
   RAY_TP,1.04707522351
 ```
 
-The output name for workloads and techniques are little different, so we attach a table below:
+The output name for workloads and techniques are little different, so we attach two tables below:
+
 Set | Workload name | output name
 ----|----|----
 Dynasoar|TRAF|trafficV
@@ -70,3 +71,13 @@ GraphChi-VEN|BFS|BFSV
 ____|CC|CCV
 ____|PR|PRV
 raytracer|RAY|RAY
+
+Techniques|output suffix name
+----|----
+CUDA|no suffix
+Concord|_CONCORD
+SharedOA|_MEM
+SharedOA+COAL|_COAL
+SharedOA+TypePointer|_TP
+
+For example, structure workloads with SharedOA techniques is named "STUT_MEM" and game-of-life with CUDA is named "GOL".
