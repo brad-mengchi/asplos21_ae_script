@@ -70,7 +70,7 @@ ____|PR|PR
 GraphChi-VEN|BFS|BFSV
 ____|CC|CCV
 ____|PR|PRV
-raytracer|RAY|RAY
+Raytracer|RAY|RAY
 
 Techniques|output suffix name
 ----|----
