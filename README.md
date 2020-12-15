@@ -58,7 +58,7 @@ The output will be like below:
 
 The output name for workloads and techniques are little different, so we attach two tables below:
 
-Set | Workload name | output name
+Set | Workload name | Output name
 ----|----|----
 Dynasoar|TRAF|trafficV
 ____|GOL|game-of-life
@@ -72,7 +72,7 @@ ____|CC|CCV
 ____|PR|PRV
 Raytracer|RAY|RAY
 
-Techniques|output suffix name
+Techniques|Output suffix name
 ----|----
 CUDA|no suffix
 Concord|_CONCORD
