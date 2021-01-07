@@ -13,6 +13,11 @@ wget https://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installe
 sh cuda_10.1.243_418.87.00_linux.run
 ```
 
+# Enable to access NVIDIA GPU performance counters to use NVProf
+
+NVIDIA disable to use performance counters for security reasons: https://developer.nvidia.com/nvidia-development-tools-solutions-err_nvgpuctrperm-permission-issue-performance-counters. To use NVProf from CUDA 10.1 to profile the application, You need to enable the counters.
+
+
 # Configure system environment
 
 Configure system environment for CUDA 10.1 installed path:
