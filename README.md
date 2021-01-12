@@ -6,6 +6,12 @@
 * pyyaml
 * CUDA 10.1: https://developer.nvidia.com/cuda-10.1-download-archive-base
 
+# Install pyyaml
+Our artifact repo request to use pyyaml to parse configurations, you can download with pip:
+```bash
+pip install pyyaml
+```
+
 # Install CUDA 10.1
 
 Download and install CUDA 10.1(If you have CUDA 10.1 installed, you can skip this part):
