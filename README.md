@@ -93,3 +93,9 @@ SharedOA+COAL|_COAL
 SharedOA+TypePointer|_TP
 
 For example, structure workloads with SharedOA techniques is named "STUT_MEM" and game-of-life with CUDA is named "GOL".
+
+# Remove old log for the next experiment
+You need to remove the log from the previous test so that you can start for the next experiment:
+```bash
+rm -rf asplos_2021_ae/run_hw/device-*
+```
